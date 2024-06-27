@@ -8,3 +8,6 @@ function isEven(a){
 function findMax(arr) {
     return Math.max(...arr);
   }
+  function reverseString(str) {
+    return str.split("").reverse().join("");
+  }
