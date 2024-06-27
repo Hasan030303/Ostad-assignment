@@ -11,3 +11,6 @@ function findMax(arr) {
   function reverseString(str) {
     return str.split("").reverse().join("");
   }
+  function filterOddNumbers(arr) {
+    return arr.filter(number => number % 2 !== 0);
+  }
