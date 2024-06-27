@@ -24,3 +24,7 @@ function findMax(arr) {
   function sortArray(arr) {
     return arr.sort((a, b) => a - b);
   }
+  function capitalizeFirstLetter(str) {
+    return str[0].toUpperCase() + str.slice(1);
+  }  
+  
