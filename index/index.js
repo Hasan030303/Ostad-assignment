@@ -14,3 +14,10 @@ function findMax(arr) {
   function filterOddNumbers(arr) {
     return arr.filter(number => number % 2 !== 0);
   }
+  function findSum(a) {
+    let sum = 0;
+    for (let i = 0; i < a.length; i++) {
+      sum = sum + a[i];
+    }
+    return sum;
+  }
